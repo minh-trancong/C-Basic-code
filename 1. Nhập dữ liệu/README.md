@@ -11,4 +11,31 @@
 1. `fprintf(..., “%c", ...)` tương đương với `fputc(...)` 
 2. `fprintf(..., “%s", ....)` tương đương với `<u>fputs(...)</u>`
 
-<h1 style="color:RED;text-align:center;">Bài tập</h1>
+<h1 style="color:green;text-align:center;">Bài tập</h1>
+
+| [Tạo danh sách sản phẩm](#Tạo danh sách sản phẩm) | fscanf | file1.c |
+| ------------------------------------------------- | ------ | ------- |
+|                                                   |        |         |
+|                                                   |        |         |
+|                                                   |        |         |
+
+### Tạo danh sách sản phẩm
+
+Tạo một tệp văn bản có tên **product.txt**, mỗi dòng trong đó chứa thông tin về một sản phẩm: ID (kiểu int), Product Name (xâu ký tự không chứa ký tự trắng), Price (kiểu double). Các trường dữ liệu trên được phân tách với nhau bởi một dấu cách.
+
+- Ví dụ **product.txt**
+
+```ABAP
+ 1 Samsung_Television_4K 20000000
+ 2 Apple_MacBook_2020 18560000
+```
+
+- Viết chương trình đọc tệp **product.txt** vào một mảng cấu trúc và sau đó in danh sách sản phẩm ra màn hình theo định dạng:
+
+```ABAP
+No Product Name          Price
+1  Samsung_Television_4K 20000000 
+2  Apple_MacBook_2020 1  8560000
+```
+
+> *Gợi ý:* `fscanf(inp, “%d%s%lf", ...) != 3`
