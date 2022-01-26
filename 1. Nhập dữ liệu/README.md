@@ -1,8 +1,5 @@
 # Nhập xuất tệp
 
-Created time: January 26, 2022 5:33 PM
-LastEditTime: January 26, 2022 5:50 PM
-
 **Nhập dữ liệu từ tệp văn bản:**
 
 1. `fscanf` có thể nhập dữ liệu theo nhiều định dạng
@@ -14,7 +11,18 @@ LastEditTime: January 26, 2022 5:50 PM
 1. `fprintf(..., “%c", ...)` tương đương với `fputc(...)` 
 2. `fprintf(..., “%s", ....)` tương đương với `<u>fputs(...)</u>`
 
-[a relative link](file1.c) 
-[LINk1](https://www.facebook.com/)
+#### Bài tập
 
-![Screen Shot 2022-01-26 at 19.26.44](/Users/minh/Library/Application Support/typora-user-images/Screen Shot 2022-01-26 at 19.26.44.png)
+```html
+<span style="color:blue">some *blue* text</span>.
+```
+
+<div class="panel panel-info">
+**Note**
+{: .panel-heading}
+<div class="panel-body">
+
+NOTE DESCRIPTION
+
+</div>
+</div>
