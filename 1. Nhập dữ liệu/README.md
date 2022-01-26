@@ -14,4 +14,4 @@ LastEditTime: January 26, 2022 5:50 PM
 1. `fprintf(..., “%c", ...)` tương đương với `fputc(...)`
 2. `fprintf(..., “%s", ....)` tương đương với `fputs(...)`
 
-[a relative link] file1.c
+[a relative link](file1.c)
