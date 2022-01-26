@@ -13,7 +13,7 @@
 
 <h1 style="color:green;text-align:center;">Bài tập</h1>
 
-| [Tạo danh sách sản phẩm](#Tạo danh sách sản phẩm) | fscanf | file1.c |
+| [Tạo danh sách sản phẩm](#Tạo-danh-sách-sản-phẩm) | fscanf | file1.c |
 | ------------------------------------------------- | ------ | ------- |
 |                                                   |        |         |
 |                                                   |        |         |
