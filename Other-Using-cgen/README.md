@@ -12,5 +12,7 @@ Vào `Build Phrases` thêm `all.c` của cgen
 
 Để dùng relative link trong `fopen("songs.txt","r");` cần phải set lại working directory
 
+https://docs.vapor.codes/4.0/xcode/
+
 ![Pic3](pic/Pic3.png)
 
