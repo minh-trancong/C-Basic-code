@@ -10,6 +10,7 @@ Vào `Build Phrases` thêm `all.c` của cgen
 
 ![Pic2](pic/Pic2.png)
 
-Để dùng relative link trong fopen("songs.txt","r"); cần phải set lại working directory
+Để dùng relative link trong `fopen("songs.txt","r");` cần phải set lại working directory
 
 ![Pic3](pic/Pic3.png)
+
