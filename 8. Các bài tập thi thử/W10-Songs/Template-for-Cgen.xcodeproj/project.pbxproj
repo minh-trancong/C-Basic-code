@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BAB8F0DA27A2ECE600A47532 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BAB8F0D927A2ECE600A47532 /* main.c */; };
-		BAB8F0E127A2EEA900A47532 /* all.c in Sources */ = {isa = PBXBuildFile; fileRef = BAB8F0E027A2EEA900A47532 /* all.c */; };
+		BA09EDA027BB77AF0060759C /* all.c in Sources */ = {isa = PBXBuildFile; fileRef = BA09ED9F27BB77AF0060759C /* all.c */; };
+		BA09EDA227BB794C0060759C /* w10-songs.c in Sources */ = {isa = PBXBuildFile; fileRef = BA09EDA127BB794C0060759C /* w10-songs.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BAB8F0D427A2ECE600A47532 /* CopyFiles */ = {
+		BA09ED9327BB77940060759C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BAB8F0D627A2ECE600A47532 /* Test-Cgen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Test-Cgen"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAB8F0D927A2ECE600A47532 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		BAB8F0E027A2EEA900A47532 /* all.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = all.c; path = ../cgen/all.c; sourceTree = "<group>"; };
-		BAB8F0E227A2EF7F00A47532 /* cgen */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cgen; path = ../../cgen; sourceTree = "<group>"; };
+		BA09ED9527BB77940060759C /* Template-for-Cgen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Template-for-Cgen"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA09ED9F27BB77AF0060759C /* all.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = all.c; path = ../../../cgen/all.c; sourceTree = "<group>"; };
+		BA09EDA127BB794C0060759C /* w10-songs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "w10-songs.c"; sourceTree = "<group>"; };
+		BA09EDA327BB79B80060759C /* cgen */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cgen; path = ../../../cgen; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BAB8F0D327A2ECE600A47532 /* Frameworks */ = {
+		BA09ED9227BB77940060759C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +41,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BAB8F0CD27A2ECE600A47532 = {
+		BA09ED8C27BB77940060759C = {
 			isa = PBXGroup;
 			children = (
-				BAB8F0E027A2EEA900A47532 /* all.c */,
-				BAB8F0D827A2ECE600A47532 /* Test-Cgen */,
-				BAB8F0D727A2ECE600A47532 /* Products */,
+				BA09EDA127BB794C0060759C /* w10-songs.c */,
+				BA09ED9F27BB77AF0060759C /* all.c */,
+				BA09EDA327BB79B80060759C /* cgen */,
+				BA09ED9627BB77940060759C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BAB8F0D727A2ECE600A47532 /* Products */ = {
+		BA09ED9627BB77940060759C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BAB8F0D627A2ECE600A47532 /* Test-Cgen */,
+				BA09ED9527BB77940060759C /* Template-for-Cgen */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BAB8F0D827A2ECE600A47532 /* Test-Cgen */ = {
-			isa = PBXGroup;
-			children = (
-				BAB8F0D927A2ECE600A47532 /* main.c */,
-				BAB8F0E227A2EF7F00A47532 /* cgen */,
-			);
-			path = "Test-Cgen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BAB8F0D527A2ECE600A47532 /* Test-Cgen */ = {
+		BA09ED9427BB77940060759C /* Template-for-Cgen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAB8F0DD27A2ECE600A47532 /* Build configuration list for PBXNativeTarget "Test-Cgen" */;
+			buildConfigurationList = BA09ED9C27BB77940060759C /* Build configuration list for PBXNativeTarget "Template-for-Cgen" */;
 			buildPhases = (
-				BAB8F0D227A2ECE600A47532 /* Sources */,
-				BAB8F0D327A2ECE600A47532 /* Frameworks */,
-				BAB8F0D427A2ECE600A47532 /* CopyFiles */,
+				BA09ED9127BB77940060759C /* Sources */,
+				BA09ED9227BB77940060759C /* Frameworks */,
+				BA09ED9327BB77940060759C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Test-Cgen";
-			productName = "Test-Cgen";
-			productReference = BAB8F0D627A2ECE600A47532 /* Test-Cgen */;
+			name = "Template-for-Cgen";
+			productName = "Template-for-Cgen";
+			productReference = BA09ED9527BB77940060759C /* Template-for-Cgen */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BAB8F0CE27A2ECE600A47532 /* Project object */ = {
+		BA09ED8D27BB77940060759C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					BAB8F0D527A2ECE600A47532 = {
+					BA09ED9427BB77940060759C = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = BAB8F0D127A2ECE600A47532 /* Build configuration list for PBXProject "Test-Cgen" */;
+			buildConfigurationList = BA09ED9027BB77940060759C /* Build configuration list for PBXProject "Template-for-Cgen" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +101,30 @@
 				en,
 				Base,
 			);
-			mainGroup = BAB8F0CD27A2ECE600A47532;
-			productRefGroup = BAB8F0D727A2ECE600A47532 /* Products */;
+			mainGroup = BA09ED8C27BB77940060759C;
+			productRefGroup = BA09ED9627BB77940060759C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BAB8F0D527A2ECE600A47532 /* Test-Cgen */,
+				BA09ED9427BB77940060759C /* Template-for-Cgen */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BAB8F0D227A2ECE600A47532 /* Sources */ = {
+		BA09ED9127BB77940060759C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAB8F0E127A2EEA900A47532 /* all.c in Sources */,
-				BAB8F0DA27A2ECE600A47532 /* main.c in Sources */,
+				BA09EDA227BB794C0060759C /* w10-songs.c in Sources */,
+				BA09EDA027BB77AF0060759C /* all.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BAB8F0DB27A2ECE600A47532 /* Debug */ = {
+		BA09ED9A27BB77940060759C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -191,7 +183,7 @@
 			};
 			name = Debug;
 		};
-		BAB8F0DC27A2ECE600A47532 /* Release */ = {
+		BA09ED9B27BB77940060759C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,20 +235,20 @@
 			};
 			name = Release;
 		};
-		BAB8F0DE27A2ECE600A47532 /* Debug */ = {
+		BA09ED9D27BB77940060759C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = ../cgen;
+				HEADER_SEARCH_PATHS = /Users/minh/GithubMinh/cgen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		BAB8F0DF27A2ECE600A47532 /* Release */ = {
+		BA09ED9E27BB77940060759C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = ../cgen;
+				HEADER_SEARCH_PATHS = /Users/minh/GithubMinh/cgen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -264,25 +256,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BAB8F0D127A2ECE600A47532 /* Build configuration list for PBXProject "Test-Cgen" */ = {
+		BA09ED9027BB77940060759C /* Build configuration list for PBXProject "Template-for-Cgen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BAB8F0DB27A2ECE600A47532 /* Debug */,
-				BAB8F0DC27A2ECE600A47532 /* Release */,
+				BA09ED9A27BB77940060759C /* Debug */,
+				BA09ED9B27BB77940060759C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BAB8F0DD27A2ECE600A47532 /* Build configuration list for PBXNativeTarget "Test-Cgen" */ = {
+		BA09ED9C27BB77940060759C /* Build configuration list for PBXNativeTarget "Template-for-Cgen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BAB8F0DE27A2ECE600A47532 /* Debug */,
-				BAB8F0DF27A2ECE600A47532 /* Release */,
+				BA09ED9D27BB77940060759C /* Debug */,
+				BA09ED9E27BB77940060759C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BAB8F0CE27A2ECE600A47532 /* Project object */;
+	rootObject = BA09ED8D27BB77940060759C /* Project object */;
 }

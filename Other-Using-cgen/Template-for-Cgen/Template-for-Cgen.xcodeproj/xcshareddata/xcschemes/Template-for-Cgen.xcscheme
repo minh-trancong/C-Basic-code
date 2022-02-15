@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BAB8F0D527A2ECE600A47532"
-               BuildableName = "Test-Cgen"
-               BlueprintName = "Test-Cgen"
-               ReferencedContainer = "container:Test-Cgen.xcodeproj">
+               BlueprintIdentifier = "BA09ED9427BB77940060759C"
+               BuildableName = "Template-for-Cgen"
+               BlueprintName = "Template-for-Cgen"
+               ReferencedContainer = "container:Template-for-Cgen.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,8 +35,7 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
-      useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/minh/GithubMinh/C-Basic-code/Other-Using-cgen/Test-Cgen"
+      useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -45,10 +44,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BAB8F0D527A2ECE600A47532"
-            BuildableName = "Test-Cgen"
-            BlueprintName = "Test-Cgen"
-            ReferencedContainer = "container:Test-Cgen.xcodeproj">
+            BlueprintIdentifier = "BA09ED9427BB77940060759C"
+            BuildableName = "Template-for-Cgen"
+            BlueprintName = "Template-for-Cgen"
+            ReferencedContainer = "container:Template-for-Cgen.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,10 +61,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BAB8F0D527A2ECE600A47532"
-            BuildableName = "Test-Cgen"
-            BlueprintName = "Test-Cgen"
-            ReferencedContainer = "container:Test-Cgen.xcodeproj">
+            BlueprintIdentifier = "BA09ED9427BB77940060759C"
+            BuildableName = "Template-for-Cgen"
+            BlueprintName = "Template-for-Cgen"
+            ReferencedContainer = "container:Template-for-Cgen.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

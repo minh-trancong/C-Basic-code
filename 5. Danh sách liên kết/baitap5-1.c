@@ -5,7 +5,6 @@
 
 #define DELIM "*#*"
 
-
 typedef struct song_s{
     char *name;
     char *path;
@@ -88,14 +87,15 @@ int main(){
     gsl_t song_list = parse_song_list(fname);
     gtype_print_song(song_list);
     printf("Nhập tên muốn tìm: ");
-    char find_name[1000];
-    fgets(find_name, 1000, stdin);
+    char *find_name = NULL;
+    cgetline(&find_name, 0, stdin);
     remove_tail_lf(find_name);
     char *path;
     if ( (path = view_path(find_name, song_list))) {
         printf("Đường dẫn: %s\n", path);
     }else printf("Không tồn tại\n");
-    //CẦN FREE
+    free(find_name);
+    gsl_free(song_list);
     return 0;
 }
 
