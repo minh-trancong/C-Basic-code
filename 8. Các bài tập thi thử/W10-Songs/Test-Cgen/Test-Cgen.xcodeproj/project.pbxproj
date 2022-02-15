@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA7EDE7927BAB970002D0963 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BAB8F0D927A2ECE600A47532 /* main.c */; };
+		BAB8F0DA27A2ECE600A47532 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BAB8F0D927A2ECE600A47532 /* main.c */; };
 		BAB8F0E127A2EEA900A47532 /* all.c in Sources */ = {isa = PBXBuildFile; fileRef = BAB8F0E027A2EEA900A47532 /* all.c */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BA7EDE7727BA8113002D0963 /* gvec_demo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = gvec_demo.c; path = ../cgen/examples/gvec/gvec_demo.c; sourceTree = "<group>"; };
 		BAB8F0D627A2ECE600A47532 /* Test-Cgen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Test-Cgen"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB8F0D927A2ECE600A47532 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		BAB8F0E027A2EEA900A47532 /* all.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = all.c; path = ../cgen/all.c; sourceTree = "<group>"; };
@@ -45,7 +44,6 @@
 		BAB8F0CD27A2ECE600A47532 = {
 			isa = PBXGroup;
 			children = (
-				BA7EDE7727BA8113002D0963 /* gvec_demo.c */,
 				BAB8F0E027A2EEA900A47532 /* all.c */,
 				BAB8F0D827A2ECE600A47532 /* Test-Cgen */,
 				BAB8F0D727A2ECE600A47532 /* Products */,
@@ -126,8 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA7EDE7927BAB970002D0963 /* main.c in Sources */,
 				BAB8F0E127A2EEA900A47532 /* all.c in Sources */,
+				BAB8F0DA27A2ECE600A47532 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
