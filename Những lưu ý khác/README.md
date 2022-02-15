@@ -4,7 +4,7 @@
 
 ![pic1](pic/pic1.png)
 
-file:  [baitap5-1.c](../5. Danh sách liên kết/baitap5-1.c) 
+file:  [baitap5-1.c](../"5. Danh sách liên kết"/baitap5-1.c) 
 
 Tương đương với `if( (tmp = parse_song(line)) != NULL)`
 
