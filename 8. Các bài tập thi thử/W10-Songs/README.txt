@@ -1,0 +1,1 @@
+gcc -o prog w10-songs.c cgen/all.c -I cgen
